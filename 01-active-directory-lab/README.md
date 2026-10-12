@@ -125,15 +125,12 @@ Get-ADPrincipalGroupMembership -Identity "alice.chen" | Select-Object Name
 
 ## Screenshots
 
-!<img src="screenshots/01-domain-controller.png" alt="Domain controller" width="500">
+![Domain controller](screenshots/01-domain-controller.png)
+![OU structure](screenshots/02-ou-structure.png)
+![Users and groups](screenshots/03-users-groups.png)
+![GPO linked to IT OU](screenshots/04-gpo.png)
+![Help desk tasks](screenshots/05-help-desk.png)
 
-<img src="screenshots/02-ou-structure.png" alt="OU structure" width="500">
-
-<img src="screenshots/03-users-groups.png" alt="Users and groups" width="500">
-
-<img src="screenshots/04-gpo.png" alt="GPO linked to IT OU" width="500">
-
-<img src="screenshots/05-help-desk.png" alt="Help desk tasks" width="500">
 ## Troubleshooting Notes
 
 | Problem | Fix |
